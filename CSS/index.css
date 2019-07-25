@@ -1,0 +1,28 @@
+body {
+    background: black;
+}
+
+header img {
+    height: 250px;
+    width: 50%;
+
+}
+
+nav {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a {
+    color: #FFCC00;
+}
+
+h1 {
+    color:white;
+}
+
+p {
+    color:white;
+}
