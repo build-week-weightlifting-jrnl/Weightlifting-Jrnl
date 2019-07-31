@@ -17,11 +17,34 @@
   }
 
   .container{
-      height: 100%;
+      // position: absolute;
+      // left: 0;
+      // top: 0;
+      width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+      animation: slideShow 30s ease-in-out infinite;
+      background-size: cover;
+      
 
       h1{
         font-size: 10rem;
         color: white;
         padding: 15px 0;
+      }
+  }
+
+  @keyframes slideShow{
+      0%, 100%{
+        background-image: url("/images/pullUps.jpg")
+      }
+      25%{
+        background-image: url("/images/dumbell.jpg")
+      }
+      50%{
+        background-image: url("/images/trainer.jpg")
+      }
+      85%{
+        background-image: url("/images/pullUps.jpg")
       }
   }
