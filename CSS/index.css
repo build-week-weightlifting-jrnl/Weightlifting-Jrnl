@@ -222,6 +222,13 @@ footer {
   font-size: 6rem;
   text-align: center;
 }
+.mission h1 {
+  font-size: 8rem;
+  color: blue;
+}
+.card-title {
+  font-size: 1.5rem;
+}
 #form h2 {
   font-size: 5rem;
   color: lightgray;
