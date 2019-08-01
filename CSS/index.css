@@ -146,31 +146,7 @@ h5 {
   font-family: 'Faster One', cursive;
 }
 .container {
-  width: 100%;
-  margin: 0 auto;
-  height: 100vh;
-  animation: slideShow 30s ease-in-out infinite;
-  background-size: cover;
-}
-.container h1 {
-  font-size: 10rem;
-  color: white;
-  padding: 15px 0;
-}
-@keyframes slideShow {
-  0%,
-  100% {
-    background-image: url("/images/pullUps.jpg");
-  }
-  25% {
-    background-image: url("/images/dumbell.jpg");
-  }
-  50% {
-    background-image: url("/images/trainer.jpg");
-  }
-  85% {
-    background-image: url("/images/pullUps.jpg");
-  }
+  height: 100%;
 }
 #leon-logo {
   height: 150px;
@@ -277,7 +253,18 @@ footer {
 .card-title {
   font-size: 1.4rem;
 }
+#header {
+  margin-top: 20px;
+}
+#header span {
+  color: #FFCC00;
+}
 #header h2 {
+  font-size: 5rem;
+  color: white;
+  margin: 25px 0;
+}
+#form h2 {
   font-size: 5rem;
   color: lightgray;
 }
@@ -285,12 +272,53 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+.form-group {
+  flex-grow: 2;
+}
 .form-group textarea {
-  width: 700px;
+  width: 59rem;
+  height: 150px;
+  margin: 15px;
 }
-section form {
-  margin: 15px 0;
+.form-group label {
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: medium;
 }
-#form {
+.form-group button {
+  margin-left: 15px;
+  height: 35px;
+  width: 100px;
+  font-size: medium;
+}
+.form-control {
+  margin-top: 30px;
+  padding: 17px;
+}
+.contact {
   display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(211, 211, 211, 0.37);
+  border-radius: 5px;
+}
+.contact .right-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.contact .right-contact h3 {
+  color: white;
+  font-size: 2rem;
+}
+.contact .right-contact p {
+  color: white;
+  font-size: 1.5rem;
+}
+.contact .right-contact div {
+  padding: 20px 0;
+}
+.contact .right-contact i {
+  height: 20px;
 }
