@@ -276,7 +276,11 @@ footer {
   flex-grow: 2;
 }
 .form-group textarea {
+
   width: 59rem;
+
+ 
+
   height: 150px;
   margin: 15px;
 }
@@ -298,15 +302,22 @@ footer {
 }
 .contact {
   display: flex;
+
   justify-content: space-evenly;
   background-color: rgba(211, 211, 211, 0.37);
   border-radius: 5px;
+
+
 }
 .contact .right-contact {
   display: flex;
   flex-direction: column;
+
   justify-content: space-evenly;
   height: 200px;
+
+ 
+
 }
 .contact .right-contact h3 {
   color: white;
@@ -318,7 +329,10 @@ footer {
 }
 .contact .right-contact div {
   padding: 20px 0;
+
 }
 .contact .right-contact i {
   height: 20px;
+
+
 }
