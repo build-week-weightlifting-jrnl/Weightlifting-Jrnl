@@ -22,6 +22,14 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+
+    @media @mobile{
+        flex-direction: column;
+    }
+
+    @media @tablet{
+        flex-direction: column;
+    }
 }
 
 .form-group{
@@ -31,6 +39,14 @@
         width: 59rem;
         height: 150px;
         margin: 15px;
+
+        @media @mobile{
+            width: 95%;
+        }
+
+        @media @tablet {
+            width: 95%;
+        }
     }
 
     label{
@@ -60,6 +76,14 @@
     background-color: rgba(211,211,211 ,0.37 );
     border-radius: 5px;
 
+    @media @mobile {
+        flex-direction: column-reverse;
+    }
+
+    @media @tablet {
+        flex-direction: column-reverse;
+    }
+
     .right-contact{
         display: flex;
         flex-direction: column;
@@ -75,11 +99,14 @@
             font-size: 1.5rem;
         }
         div{
+            display: flex;
+            justify-content: space-evenly;
             padding: 20px 0;
         }
 
         i{
             height: 20px;
+            color: @counter-color;
         }
         
     }
