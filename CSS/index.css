@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Faster One', cursive;
+}
+.container {
+  height: 100%;
+}
+#leon-logo {
+  height: 150px;
+  width: 100%;
+  border-radius: 60px;
+}
+#leon-logo:hover {
+  opacity: 0.6;
+}
+nav {
+  padding: 20px 0;
+  border-bottom: 2px solid lightgray;
+}
+nav a {
+  font-family: 'Permanent Marker', cursive;
+  color: #FFCC00;
+  text-decoration: none;
+  font-size: 2rem;
+}
+nav a:hover {
+  text-decoration: none;
+  font-size: 2.3rem;
+  color: #FFCC00;
+  font-weight: bold;
+}
+footer {
+  color: white;
+  margin: 100px 0 ;
+}
+#landing-page {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  animation: slideShow 30s ease-in-out infinite;
+  background-size: cover;
+}
+@keyframes slideShow {
+  0%,
+  100% {
+    background-image: url("/images/pullUps.jpg");
+  }
+  25% {
+    background-image: url("/images/dumbell.jpg");
+  }
+  50% {
+    background-image: url("/images/trainer.jpg");
+  }
+  85% {
+    background-image: url("/images/pullUps.jpg");
+  }
+}
+.d-flex h1 {
+  font-size: 10rem;
+  color: #FFCC00;
+  padding: 15px 0;
+}
+.d-flex p {
+  font-size: 2.5rem;
+  color: lightgray;
+  font-family: 'Monoton', cursive;
+  margin-bottom: 70px;
+}
+.d-flex input[type="name"] {
+  padding: 7px;
+  width: 300px;
+  border-radius: 10px;
+}
+.d-flex input[type="name"]:hover {
+  border-color: #FFCC00;
+}
+.d-flex input[type="submit"] {
+  height: 32.2px;
+  width: 75px;
+}
+.forgot {
+  font-family: 'Permanent Marker', cursive;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+  padding-top: 5px;
+  padding-right: 330px;
+  color: #FFCC00;
+}
+.forgot:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+.mission h1 {
+  font-size: 10rem;
+}
+#statement {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  color: #F75C03;
+  padding: 12px 0;
+}
+#team h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+.card-title {
+  font-size: 1.4rem;
+}
+#header {
+  margin-top: 20px;
+}
+#header span {
+  color: #FFCC00;
+}
+#header h2 {
+  font-size: 5rem;
+  color: white;
+  margin: 25px 0;
+}
+#form h2 {
+  font-size: 5rem;
+  color: lightgray;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-group {
+  flex-grow: 2;
+}
+.form-group textarea {
+
+  width: 59rem;
+
+ 
+
+  height: 150px;
+  margin: 15px;
+}
+.form-group label {
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: medium;
+}
+.form-group button {
+  margin-left: 15px;
+  height: 35px;
+  width: 100px;
+  font-size: medium;
+}
+.form-control {
+  margin-top: 30px;
+  padding: 17px;
+}
+.contact {
+  display: flex;
+
+  justify-content: space-evenly;
+  background-color: rgba(211, 211, 211, 0.37);
+  border-radius: 5px;
+
+
+}
+.contact .right-contact {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  height: 200px;
+
+ 
+
+}
+.contact .right-contact h3 {
+  color: white;
+  font-size: 2rem;
+}
+.contact .right-contact p {
+  color: white;
+  font-size: 1.5rem;
+}
+.contact .right-contact div {
+  padding: 20px 0;
+
+}
+.contact .right-contact i {
+  height: 20px;
+
+
+}
