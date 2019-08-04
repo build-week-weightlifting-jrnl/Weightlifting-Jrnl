@@ -203,11 +203,22 @@ footer {
   color: #FFCC00;
   padding: 15px 0;
 }
+@media (max-width: 500px) {
+  .d-flex h1 {
+    font-size: 8rem;
+  }
+}
 .d-flex p {
   font-size: 2.5rem;
   color: lightgray;
   font-family: 'Monoton', cursive;
   margin-bottom: 70px;
+}
+@media (max-width: 500px) {
+  .d-flex form {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .d-flex input[type="name"] {
   padding: 7px;
@@ -220,6 +231,11 @@ footer {
 .d-flex input[type="submit"] {
   height: 32.2px;
   width: 75px;
+}
+@media (max-width: 500px) {
+  .d-flex input[type="submit"] {
+    width: 100%;
+  }
 }
 .forgot {
   font-family: 'Permanent Marker', cursive;
@@ -235,6 +251,11 @@ footer {
 .forgot:hover {
   text-decoration: none;
   color: lightgray;
+}
+@media (max-width: 500px) {
+  .forgot {
+    padding-right: 0;
+  }
 }
 .mission h1 {
   font-size: 10rem;
@@ -272,17 +293,33 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
 .form-group {
   flex-grow: 2;
 }
 .form-group textarea {
-
   width: 59rem;
-
- 
-
   height: 150px;
   margin: 15px;
+}
+@media (max-width: 500px) {
+  .form-group textarea {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) {
+  .form-group textarea {
+    width: 95%;
+  }
 }
 .form-group label {
   color: white;
@@ -302,22 +339,25 @@ footer {
 }
 .contact {
   display: flex;
-
   justify-content: space-evenly;
   background-color: rgba(211, 211, 211, 0.37);
   border-radius: 5px;
-
-
+}
+@media (max-width: 500px) {
+  .contact {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .contact {
+    flex-direction: column-reverse;
+  }
 }
 .contact .right-contact {
   display: flex;
   flex-direction: column;
-
   justify-content: space-evenly;
   height: 200px;
-
- 
-
 }
 .contact .right-contact h3 {
   color: white;
@@ -329,10 +369,7 @@ footer {
 }
 .contact .right-contact div {
   padding: 20px 0;
-
 }
 .contact .right-contact i {
   height: 20px;
-
-
 }
