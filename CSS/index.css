@@ -262,17 +262,53 @@ footer {
 }
 #statement {
   font-family: 'Luckiest Guy', cursive;
-  font-size: 2.5rem;
-  line-height: 1.25;
+  font-size: 1.75rem;
+  line-height: 1.5;
   color: #F75C03;
-  padding: 12px 0;
+  margin: 2px 0px;
+  padding: 16px 10px;
+  border-bottom: 5px groove #FFCC00;
+}
+.mission h1 {
+  font-size: 4rem;
+  color: lightgray;
+}
+@media (max-width: 500px) {
+  .mission h1 {
+    text-align: center;
+    padding-top: 5px;
+  }
 }
 #team h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
+  padding: 20px 0;
+  color: lightgray;
+}
+@media (max-width: 500px) {
+  .card {
+    width: auto !important;
+  }
+}
+.card-name {
+  text-align: center;
+  font-size: 2rem;
+}
+.card-body {
+  background-color: lightgray;
+}
+.card-body p {
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 .card-title {
   font-size: 1.4rem;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
 }
 #header {
   margin-top: 20px;
@@ -284,6 +320,16 @@ footer {
   font-size: 5rem;
   color: white;
   margin: 25px 0;
+}
+@media (max-width: 500px) {
+  #header h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #header h2 {
+    text-align: center;
+  }
 }
 #form h2 {
   font-size: 5rem;
@@ -298,7 +344,8 @@ footer {
     flex-direction: column;
   }
 }
-@media (min-width: 768px) {
+
+@media (max-width: 800px) {
   .row {
     flex-direction: column;
   }
@@ -316,7 +363,8 @@ footer {
     width: 95%;
   }
 }
-@media (min-width: 768px) {
+
+@media (max-width: 800px) {
   .form-group textarea {
     width: 95%;
   }
@@ -348,7 +396,8 @@ footer {
     flex-direction: column-reverse;
   }
 }
-@media (min-width: 768px) {
+
+@media (max-width: 800px) {
   .contact {
     flex-direction: column-reverse;
   }
@@ -358,6 +407,18 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   height: 200px;
+
+}
+@media (max-width: 500px) {
+  .contact .right-contact {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .contact .right-contact {
+    text-align: center;
+  }
+
 }
 .contact .right-contact h3 {
   color: white;
@@ -368,8 +429,12 @@ footer {
   font-size: 1.5rem;
 }
 .contact .right-contact div {
+  display: flex;
+  justify-content: space-evenly;
   padding: 20px 0;
 }
 .contact .right-contact i {
   height: 20px;
+  color: lightgray;
+
 }

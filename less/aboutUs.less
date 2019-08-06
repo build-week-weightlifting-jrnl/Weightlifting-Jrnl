@@ -1,19 +1,63 @@
 #statement {
     // font-family: 'Julius Sans One', sans-serif;
     font-family: 'Luckiest Guy', cursive;
-    font-size: 2.5rem;
-    line-height: 1.25;
+    font-size: 1.75rem;
+    line-height: 1.5;
     color: #F75C03;
-    padding: 12px 0;
+    margin: 2px 0px;
+    padding: 16px 10px;
+    border-bottom: 5px groove #FFCC00;
 }
 
+.mission{
+    h1{
+        font-size: 4rem;
+        color: lightgray;
+        
+        @media @mobile {
+            text-align: center;
+            padding-top: 5px;
+    }
+    }
+
+    
+}
+// Team display section
 #team{
     h1{
-        font-size: 6rem;
+        font-size: 4rem;
         text-align: center;
+        padding: 20px 0;
+        color: lightgray;
     }
 }
 
+.card{
+    @media @mobile {
+        width: auto !important;
+    }
+}
+
+.card-name{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.card-body{
+    background-color: lightgray;
+
+    p{
+        padding: 20px;
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+}
 .card-title{
     font-size: 1.4rem;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
 }
